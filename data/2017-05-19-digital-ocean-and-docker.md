@@ -66,6 +66,3 @@ $ docker-machine ip nic-lan-web
 
 Have fun 
 :-)
-
-
-test
