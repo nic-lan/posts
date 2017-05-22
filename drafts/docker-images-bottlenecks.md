@@ -58,4 +58,15 @@ EXPOSE 80
 CMD PORT=80 mix phoenix.server
 ```
 
-Since the image is based the one previously built, there are no costs related with the previously built one 
+
+All the magic happens here:
+```
+RUN git clone https://github.com/nic-lan/nic-lan.github.io.git /app
+```
+
+The host where the docker image is built is responsable to fetch the code ( a few kBs ) and then to built it locally ( hundreds of GBs ). 
+
+What is the advantage of that ? Easy peasy... consider you are working remotely and you upload bandwith is a bottleneck ( home office, tiny island of the caribbean )... then you will not need hours before beeing able to deploy your docker image.... 
+
+
+
