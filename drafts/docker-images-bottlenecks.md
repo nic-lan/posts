@@ -69,4 +69,4 @@ The host where the docker image is built is responsable to fetch the code ( a fe
 What is the advantage of that ? Easy peasy... consider you are working remotely and you upload bandwith is a bottleneck ( home office, tiny island of the caribbean )... then you will not need hours before beeing able to deploy your docker image.... 
 
 
-
+test line
